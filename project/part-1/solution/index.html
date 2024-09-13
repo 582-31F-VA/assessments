@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="main.js" type="module"></script>
+        <link href="css/style.css" rel="stylesheet" />
+        <title>Ghibli Catalogue</title>
+    </head>
+    <body>
+        <header>
+            <form>
+                <fieldset id="view">
+                    <label>
+                        View
+                        <select>
+                            <option value="grid">Grid</option>
+                            <option value="list">List</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </form>
+            <form id="query">
+                <fieldset id="search">
+                    <label>
+                        Search
+                        <input type="search" />
+                    </label>
+                </fieldset>
+                <fieldset id="sort">
+                    <label>
+                        Sort
+                        <select name="sort">
+                            <option value="ascending">Ascending</option>
+                            <option value="descending">Descending</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset id="filter">Filter</fieldset>
+                <button>Apply</button>
+            </form>
+        </header>
+        <main></main>
+    </body>
+</html>
